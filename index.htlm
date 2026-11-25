@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Salud Dr. Manuel Belgrano</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><img src="logo.png" alt="Logo del centro de salud" width="40"></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Centro de Salud Dr. Manuel Belgrano</h1>
+
+        <section>
+            <h2>Sobre nosotros</h2>
+            <p>Brindamos atención primaria a la comunidad con un equipo de la salud.</p>
+        </section>
+
+        <section>
+            <h2>Solicitar turno</h2>
+            <button onclick="alert('Turno solicitado con éxito')">Solicitar turno</button>
+            <!-- Este botón ahora llama a la variable declarada en el archivo .js -->
+            <button onclick="alert(mensajeInfo)">Ver información</button>
+        </section>
+
+        <section>
+            <h2>Servicios</h2>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <h3>Clínica médica</h3>
+                    <p>Consultas generales.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Pediatría</h3> <!-- Arreglado de classs a class -->
+                    <p>Control de niño sano.</p>
+                </div>
+                <div class="tarjeta">
+                    <h3>Enfermería</h3>
+                    <p>Vacunación y curaciones.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="sidebar">
+            <h3>Información Importante</h3>
+            <p>Por favor, recuerde traer su credencial médica y presentarse 15 minutos antes de su turno asignado.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Centro de Salud Dr. Manuel Belgrano - Av. San Martín 1234</p>
+        <p>&copy; 2026 - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Vinculación del archivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html> 

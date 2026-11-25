@@ -1,0 +1,76 @@
+body {
+    font-family: cursive;
+    background-color: #932929;
+    color: #ffffff; /* Letras blancas para corregir el contraste */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0b6e4f;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    list-style: none;
+    padding: 0 10px;
+    margin: 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px; 
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: white;
+    color: #f9eded; 
+    border: 2px solid #0b6e4f;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    color: #333333;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0b6e4f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #0b6e4f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
